@@ -1,0 +1,178 @@
+* {
+
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-color: #076AF0;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 18px;
+    line-height: 80px;
+    width: max-content;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.nav-menu-link:hover {
+    font-size: 24px;
+    background-color: #024070;
+    transition: 1s;
+}
+
+#piepagina {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background-color: #076AF0;
+    text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100%;
+}
+
+#content-wrap {
+    padding-bottom: 10%;
+}
+
+#pieRedes {
+    float: next;
+}
+
+#link-Info {
+    
+    color: #076AF0;
+
+}
+
+#descrip {
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+
+}
+
+.info-class {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 83%;
+    width: 80%;
+    overflow: auto;
+    background-position: center;
+    border: 1px solid black;
+    width: 1000px;
+    height: 800px;
+    text-align: justify-all;
+    
+}
+
+.info-teo {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 83%;
+    width: 80%;
+    overflow: auto;
+    background-position: center;
+    border: 1px solid black;
+    width: 1000px;
+    height: 700px;
+    text-align: justify-all;
+    
+}
+
+
+
+#info-tipos {
+    margin-left: 10;
+    display:inline;
+}
+
+#barralateral {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: fixed;
+    left: 0;
+    height: 80%;
+    width: 12%;
+    background-color: #076AF0;
+    color: black;
+}
+
+.link-lat {
+    color: white;
+}
+
+#CajaInicio {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    height: 83%;
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+      
+}
+
+
+
